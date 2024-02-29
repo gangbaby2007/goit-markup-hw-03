@@ -3,74 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="shortcut icon" href="img.project/free-icon-recording-studio-3528798.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href=""><img src="img.project/Logo.png" alt="logo" width="100"></a>
+    <header class="pagination">
         <nav>
-            <ul>
+
+            <a href="index.html"><img class="logo1" src="img.project/Logo.png" alt="logo"></a>
+
+            <ul class="section">
                 <li><a href="">Studio</a></a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
+
         </nav>
-        <ul>
-            <li><a href="mailo:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
-        </ul>
+
+            <ul class="contacts">
+                <li><a href="mailo:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
+            </ul>
+
     </header>
+
     <main>
-        <h1>
-            Effective Solutions
-        <br>for Your Business
-        </h1>
-        <p><input type="button" value="Order Service"></p>
-        <h3>Strategy</h3>
-        <h3>Punctuality</h3>
-        <h3>Diligence</h3>
-        <h3>Technologies</h3>
+        <section class="main">
+            <h1 class="title">
+                Effective Solutions
+            <br>for Your Business
+            </h1>
 
-        <ul>
-            <li>
-                <p>Our goal is to identify the business
-                <br>problem to walk away with the <br>perfect and creative solution.</p>
-            </li>
-            <li>
-                <p>Bring the key message to the <br>brand's audience for the best price <br>within the shortest possible time.</p>
-            </li>
-            <li>
-                <p>Research and confirm brands that <br>present the strongest digital growth <br>opportunities and minimize risk.</p>
-            </li>
-            <li>
-                <p>Design practice focused on digital <br>experiences. We bring forth a deep <br>passion for problem-solving.</p>
-            </li>
-        </ul>
+            <p class="type"><input type="button" class="button" value="Order Service"></p>
+        </section>
 
-        <h2>Our Team</h2>
-        <img src="img.project/img-3.jpg" alt="worker.1"width="250" height="250">
-        <img src="img.project/img-2.jpg" alt="worker.2" width="250" height="250">
-        <img src="img.project/img-1.jpg" alt="worker.3" width="250" height="250">
-        <img src="img.project/img.jpg" alt="worker.4" width="250" height="250">
+        <section class="text">
+            <h3>Strategy</h3>
+            <h3>Punctuality</h3>
+            <h3>Diligence</h3>
+            <h3>Technologies</h3>
+        </section>
 
-        <h3>Mark Guerrero</h3>
-        <h3>Tom Ford</h3>
-        <h3>Camila Garcia</h3>
-        <h3>Daniel Wilson</h3>
+        <section>
+                <ul class="list">
+                    <li >
+                        <p>Our goal is to identify the business
+                        <br>problem to walk away with the <br>perfect and creative solution.</p>
+                    </li>
+                    <li>
+                        <p>Bring the key message to the <br>brand's audience for the best price <br>within the shortest possible time.</p>
+                    </li>
+                    <li>
+                        <p>Research and confirm brands that <br>present the strongest digital growth <br>opportunities and minimize risk.</p>
+                    </li>
+                    <li>
+                        <p>Design practice focused on digital <br>experiences. We bring forth a deep <br>passion for problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-        <ul>
-            <li><p>Product Designer</p></li>
-            <li><p>Frontend Developer</p></li>
-            <li><p>Marketing</p></li>
-            <li><p>UI Designer</p></li>
-        </ul>
+        <section class="pic">
+            <h2 class="subtitle">Our Team</h2>
+        
+            <img src="img.project/img-3.jpg" alt="worker.1"width="250" height="250">
+            <img src="img.project/img-2.jpg" alt="worker.2" width="250" height="250">
+            <img src="img.project/img-1.jpg" alt="worker.3" width="250" height="250">
+            <img src="img.project/img.jpg" alt="worker.4" width="250" height="250">
+
+            <h4>Mark Guerrero</h4>
+            <h4>Tom Ford</h4>
+            <h4>Camila Garcia</h4>
+            <h4>Daniel Wilson</h4>
+
+            <ul class="specialties">
+                <li><p>Product Designer</p></li>
+                <li><p>Frontend Developer</p></li>
+                <li><p>Marketing</p></li>
+                <li><p>UI Designer</p></li>
+            </ul>
+        </section>
+
     </main>
+
     <footer>
-        <ul>
-            <li><a href=""><img src="img.project/Logo.png" alt="logo" width="80"></a></li>
+
+        <ul class="marketing">
+            <li><a href="index.html"><img src="img.project/Logo.png" alt="logo" width="80"></a></li>
             <li><p>Increase the flow of customers and <br>sales for your business with digital <br>marketing & growth solutions.</p></li>
         </ul>
+
     </footer>
-</body>
+</body >
 </html>
